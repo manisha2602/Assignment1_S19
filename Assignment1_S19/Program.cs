@@ -7,16 +7,16 @@ namespace Assignment1_S19
     {
         public static void Main()
         {
-            int a = 5, b = 20;
+            int a = 5, b = 15;
             printPrimeNumbers(a, b);
             Console.ReadKey(true);
 
-            int n1 = 15;
+            int n1 = 5;
             double r1 = getSeriesResult(n1);
             Console.WriteLine("The sum of the series is: " + r1);
             Console.ReadKey(true);
 
-            long n2 = 91;
+            long n2 = 15;
             long r2 = decimalToBinary(n2);
             Console.WriteLine("Binary conversion of the decimal number " + n2 + " is: " + r2);
             Console.ReadKey(true);
@@ -28,12 +28,12 @@ namespace Assignment1_S19
             Console.ReadKey(true);
 
 
-             int n4 = 10;
+             int n4 = 5;
              printTriangle(n4);
 
             Console.ReadKey(true);
 
-             int[] arr = new int[] { 1, 2, 3, 2, 2, 1, 3, 2,7,7,7,7,7,7 };
+             int[] arr = new int[] { 1, 2, 3, 2, 2, 1, 3, 2};
              computeFrequency(arr);
              Console.ReadKey(true);
 
